@@ -401,7 +401,7 @@ setup(
     entry_points={
         'console_scripts': [
             'odom_listener = turtle_controller.odom_listener:main',
-            'triangle_mover = turtle_controller.triangle_mover:main',
+            'triangle_mover = turtle_controller.triangle_stepper:main',
         ],
     },
 )
